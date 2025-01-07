@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router-dom';
-import sunflower from '../../assets/sunflower.gif';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import signupPic from '../../assets/up.svg';
@@ -16,7 +15,6 @@ const SignUp = () => {
     const handleGoogleSignIn = () => {
         signInWithGoogle()
             .then(result => {
-                
                 navigate('/');
             })
             .catch(error => Swal.fire("Error: ", error.message))
@@ -57,15 +55,15 @@ const SignUp = () => {
     }
     return (
         <div className='md:flex md:gap-20 w-10/12 mx-auto my-20 justify-center items-center'>
-            <div className='bg-[#f9ae3f] p-10 md:w-1/2 text-center '>
+            <div className='bg-[#f9ae3f] p-1 lg:p-10 md:w-1/2 text-center '>
                 <div className='relative text-white'>
-                    <h1 className='text-2xl font-bold'>Sign Up</h1>
+                    <h1 className='text-lg lg:text-2xl font-bold'>Sign Up</h1>
                     <h1>Create your account</h1>
                     <h3>Have an account? <Link className='font-bold text-' to='/signin'>Sign in now</Link></h3>
-                    <img className='absolute right-8 top-5 -rotate-180' src={arrow} alt="" />
+                    <img className='hidden lg:block absolute right-8 top-5 -rotate-180' src={arrow} alt="" />
                 </div>
                 <div>
-                    <form onSubmit={handleSignUp} className="card-body">
+                    <form onSubmit={handleSignUp} className="flex flex-col gap-4 p-2">
                         <div className="form-control">
                             <input name='name' type="text" placeholder="Your Name" className="input input-bordered" required />
                         </div>
