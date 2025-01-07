@@ -8,21 +8,21 @@ const SliderFancy = () => {
     //   }
     
       const handleDone = () => {
-        // console.log(`Done after 5 loops!`)
+        // console.log(`Done after 5 loops!`)style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'bold', fontSize: '28px' }}
       }
     return (
-        <h1 style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'bold', fontSize: '28px' }}>
+        <h1 className='font-bold md:text-3xl md:pt-7xl  lg:pl-3xl lg:pt-[100px] lg:text-7xl' >
         Life is simple{' '}
-        <span style={{ color: '#000', fontWeight: 'bold' }}>
+        <span className='' style={{ color: '#fff', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['Travel', 'Explore', 'Enrich Knowledge', 'Fun', 'Eat!']}
+            words={['Travel', 'Explore', 'Fun', 'Eat']}
             loop={5}
             cursor
-            cursorStyle='_'
-            typeSpeed={70}
+            cursorStyle='|'
+            typeSpeed={100}
             deleteSpeed={50}
-            delaySpeed={500}
+            delaySpeed={400}
             onLoopDone={handleDone}
             // onType={handleType}
           />

@@ -72,7 +72,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="text-3xl font-extrabold text-blue-500">Go Visa</a>
+                <a className="text-lg font-bold lg:text-3xl lg:font-extrabold text-blue-500">Go Visa</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
@@ -99,8 +99,8 @@ const Navbar = () => {
                         </>
                         :
                         <div className='space-x-4'>
-                            <Link to='signin' className="btn bg-white text-[#f9ae3f] border border-[#f9ae3f] text-lg">Sign In</Link>
-                            <Link to='signup' className="btn bg-white text-[#f9ae3f] border border-[#f9ae3f] text-lg">Sign Up</Link>
+                            <Link to='signin' className="p-1  md:btn md:bg-white md:text-[#f9ae3f] md:border md:border-[#f9ae3f] text-sm md:text-lg">Sign In</Link>
+                            <Link to='signup' className="hidden md:btn md:bg-white md:text-[#f9ae3f] md:border md:border-[#f9ae3f] md:text-lg">Sign Up</Link>
                         </div>
                 }
                 {/* <input type="checkbox" className="toggle" defaultChecked /> */}
