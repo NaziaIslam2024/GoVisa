@@ -13,11 +13,11 @@ const FAQ = () => {
     return (
         <div>
             <div className='relative'>
-                <h1 className='text-5xl mb-10 text-center mt-20 font-bold text-blue-500'>Questions about visa processing</h1>
+                <h1 className='text-xl md:text-3xl lg:text-5xl mb-10 text-center mt-20 font-bold text-blue-500'>Questions about visa processing</h1>
                 {/* <img className='absolute top-1 left-60' src={faq} alt="" /> */}
             </div>
             <div className='md:flex'>
-                <div className='space-y-5 w-8/12 text-justify'>
+                <div className='space-y-5 w-full lg:w-8/12 text-justify'>
                     <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">What are the stages of visa processing?
                         </div>

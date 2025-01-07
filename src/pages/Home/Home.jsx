@@ -6,7 +6,7 @@ import FAQ from '../../components/HomeDesign/FAQ';
 
 const Home = () => {
     return (
-        <div className='my-10'>
+        <div className=''>
             <Slider></Slider>
             <LatestVisas></LatestVisas>
             <AboutUs></AboutUs>

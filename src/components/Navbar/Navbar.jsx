@@ -35,7 +35,7 @@ const Navbar = () => {
     }
 
     const links = <>
-        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink className='' to='/'>Home</NavLink></li>
         <li><NavLink to='/allvisas'>All Visas</NavLink></li>
         
         {
@@ -47,7 +47,7 @@ const Navbar = () => {
         }
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 py-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -67,9 +67,7 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        {
-                            links
-                        }
+                        {links}
                     </ul>
                 </div>
                 <a className="text-lg font-bold lg:text-3xl lg:font-extrabold text-blue-500">Go Visa</a>
