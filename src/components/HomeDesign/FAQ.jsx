@@ -18,7 +18,7 @@ const FAQ = () => {
             </div>
             <div className='md:flex'>
                 <div className='space-y-5 w-8/12 text-justify'>
-                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 bg-blue-100 border">
+                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">What are the stages of visa processing?
                         </div>
                         <div className="collapse-content text-gray-500">
@@ -33,25 +33,25 @@ const FAQ = () => {
                             </div>
                         </div>
                     </div>
-                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 bg-blue-100 border">
+                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">What is the process of a Bangladesh visa?</div>
                         <div className="collapse-content">
                             <p>You can apply for a Bangladesh visa on the official website or visit the Embassy with your documents. You'll need to submit the required documents, including an application form, passport-sized photos, and the visa fee.</p>
                         </div>
                     </div>
-                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 bg-blue-100 border">
+                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">How long does UAE visa process take?</div>
                         <div className="collapse-content">
                             <p>This will typically take around 5 working days, it can be quicker, but it can take longer.</p>
                         </div>
                     </div>
-                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 bg-blue-100 border">
+                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">How to get a Europe visa from Bangladesh?</div>
                         <div className="collapse-content">
                             <p>You have to apply for your Schengen visa at the Embassy of your main destination. If the main destination cannot be determined, responsibility for issuance of the visa lies with the Schengen state of first entry.</p>
                         </div>
                     </div>
-                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 bg-blue-100 border">
+                    <div tabIndex={0} className="collapse collapse-plus border-blue-300 border-b rounded-none">
                         <div className="collapse-title text-xl font-medium">What are the stages of visa processing?
                         </div>
                         <div className="collapse-content">

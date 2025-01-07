@@ -20,7 +20,7 @@ const Slider = () => {
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-            <div className='absolute right-1/3 left-1/3 top-[100px]'>
+                <div className='absolute right-1/3 left-1/3 top-[100px]'>
                     <SliderFancy></SliderFancy>
                 </div>
                 <img
@@ -32,6 +32,9 @@ const Slider = () => {
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
+                <div className='absolute right-1/3 left-1/3 top-[100px]'>
+                    <SliderFancy></SliderFancy>
+                </div>
                 <img
                     src={s3}
                     className="w-full" />
@@ -40,7 +43,7 @@ const Slider = () => {
                     <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
             </div>
-            
+
         </div>
     );
 };
